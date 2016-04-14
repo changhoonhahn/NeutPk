@@ -1,8 +1,6 @@
 from classy import Class
 import numpy as np 
 import itertools
-from nose_parameterized import parameterized
-
 
 
 def m_Pk(k=np.logspace(-3, 0., 100), z=0.53, nl_model='trg'):
